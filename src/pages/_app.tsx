@@ -2,6 +2,7 @@ import { AppProps } from 'next/app';
 import Head from 'next/head';
 import React from 'react';
 import { Container } from 'reactstrap';
+import Nav from 'components/nav';
 import 'custom.scss';
 
 const App = ({ Component, pageProps }: AppProps): JSX.Element => {
@@ -14,6 +15,7 @@ const App = ({ Component, pageProps }: AppProps): JSX.Element => {
         <title>Jordan Berger Portfolio</title>
       </Head>
       <Container fluid>
+        <Nav />
         <Component {...pageProps} />
       </Container>
     </>
