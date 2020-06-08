@@ -1,0 +1,8 @@
+/node_modules
+/.pnp
+/.yarn
+/.next
+/coverage
+/build
+.DS_Store
+/.cache
